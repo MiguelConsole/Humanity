@@ -1,0 +1,112 @@
+.bruh {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-col: transparent;
+  color: rgba(32, 26, 0, 0.904);
+  border: rgba(252, 227, 116, 0.904);
+  border-style: solid;
+  visibility: visible;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .25);
+  background-color: rgba(162, 153, 107, 0.904);
+  font-size: 23px;
+  margin: 10px 32px;
+  padding: 100px 100px;
+
+}
+
+.hurb {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-col: transparent;
+  color: rgba(162, 153, 107, 0.904);
+  border: rgba(177, 149, 11, 0.904);
+  border-style: solid;
+  visibility: visible;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .25);
+  background-color: rgba(105, 87, 0, 0.904);
+  font-size: 23px;
+  margin: 10px 32px;
+  padding: 100px 100px;
+
+}
+.matrix {
+  background-image: url(Assets/gif.gif);
+  background-attachment: fixed;
+  padding: 100px 100px;
+  box-sizing: content-box;
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 1);
+  visibility: visible;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  aspect-ratio: 9/4;
+  place-content: center;
+  text-align-last: center;
+  display: grid;
+  place-items: center;
+}
+
+.center {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  top: 25%;
+}
+
+.follow {
+  box-sizing: border-box;
+  background-color: rgba(65, 255, 32, 0.663);
+  position: fixed;
+
+}
+
+.um {
+  position: sticky;
+  border: solid rgb(7, 151, 53) 2px;
+  background-color: rgb(49, 49, 49);
+  z-index: 10;
+}
+
+.mu {
+  position: relative;
+  border: solid rgb(7, 151, 53) 2px;
+  background-color: rgb(49, 49, 49);
+  z-index: 10;
+}
+
+body {
+  background-color: #333;
+  font-size: 40px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+
+
+img {
+}
+
+label {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(93, 154, 123);
+  background-color: rgb(52, 63, 55);
+  margin: 0;
+  font-size: 17px;
+  inline-size: 100%;
+  margin-bottom: 3px;
+  display: table-cell;
+  object-fit: cover;
+  display: grid;
+
+}
